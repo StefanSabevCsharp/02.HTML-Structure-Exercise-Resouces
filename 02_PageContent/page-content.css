@@ -1,0 +1,19 @@
+section{
+    margin-left: 200px;
+
+}
+h1{
+    size: 28px;
+
+}
+p:not(:has(em)){
+    font-size:24px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+section article p{
+    font-size: default;
+}
