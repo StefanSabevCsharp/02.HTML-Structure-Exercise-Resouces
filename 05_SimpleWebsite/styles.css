@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+
+}
+ul{
+    background-color: #444;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    text-size-adjust: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+section{
+    margin-left: 200px;
+
+}
+h1{
+    size: 28px;
+
+}
+p:not(:has(em)){
+    font-size:24px;
+}
+
+/* section article p{
+    font-size: default;
+} */
+footer{
+    background-color: #444;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    font-size: initial;
+}
